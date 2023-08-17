@@ -1179,12 +1179,7 @@
             if (/\.webflow\.io$/i.test(publishedDomain) && location.hostname !== publishedDomain) {
               shouldBrand = true;
             }
-            if (shouldBrand && !isPhantom) {
-              brandElement = brandElement || createBadge();
-              ensureBrand();
-              setTimeout(ensureBrand, 500);
-              $(doc).off(fullScreenEvents, onFullScreenChange).on(fullScreenEvents, onFullScreenChange);
-            }
+            if (shouldBrand && !isPhantom) {}
           };
           function onFullScreenChange() {
             var fullScreen = doc.fullScreen || doc.mozFullScreen || doc.webkitIsFullScreen || doc.msFullscreenElement || Boolean(doc.webkitFullscreenElement);
