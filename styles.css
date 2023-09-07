@@ -2814,7 +2814,7 @@ html {
   .feature-section {
     padding-top: 100px;
     padding-bottom: 100px;
-    display: none;
+    display: flex;
   }
   
   .feature-container {
