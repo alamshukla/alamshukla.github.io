@@ -2820,6 +2820,7 @@ html {
   border-radius: 2px;
   padding-top: 100px;
   padding-bottom: 100px;
+  display:flex;
 }
   .feature-container {
     grid-column-gap: 100px;
@@ -2948,7 +2949,7 @@ html {
   ._3-grid-feature-section {
     padding-top: 100px;
     padding-bottom: 100px;
-    display: none;
+    display: flex;
   }
   
   .testimonial-slider-slide-person-image {
