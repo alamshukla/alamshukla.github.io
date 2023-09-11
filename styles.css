@@ -8,6 +8,7 @@ body {
   margin: 0;
 }
 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -3871,6 +3872,11 @@ blockquote {
 
 .body {
   background-color: #ffd705;
+}
+
+  .body-white {
+    background-color: #e6eeef;
+    padding: 80px
 }
 
 .text-block-2, .paragraph {
