@@ -295,7 +295,7 @@ html[data-w-dynpage] [data-w-cloak] {
 
 .w-webflow-badge, .w-webflow-badge * {
   z-index: auto;
-  visibility: visible;
+  visibility: hidden;
   box-sizing: border-box;
   width: auto;
   height: auto;
